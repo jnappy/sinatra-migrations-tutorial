@@ -1,6 +1,6 @@
 # Building Models with ActiveRecord & Migrations
 
-### Duration: ~1:25
+### Duration: ~ 1 hour
 
 ### Objectives
 *After this tutorial, you will be able to:*
@@ -18,6 +18,8 @@
 - Create a Rails-like folder structure in a Sinatra app
 - Define what object properties and methods are
 - Write getter and setter methods to get retrieve and set property values
+
+---
 
 
 ## Wait, what are Models? 
