@@ -88,7 +88,7 @@ We get all these awesome methods - that we don't have to write ourselves - and w
 
 ## Setting up a class and our DB with ActiveRecord
 
-These `.all` `.find` ActiveRecord methods will write the SQL for us, and since we've connected our database, we can pull any data we need real, real easily.  But before we can, we have to set up our file and classes to use ActiveRecord and a database to talk to:
+These ActiveRecord methods - `.all`, `.find` - will write the SQL for us, and since we've connected our database, we can pull any data we need real, real easily.  But before we can, we have to set up our file and classes to use ActiveRecord and a database to talk to:
 
 #### Get the ActiveRecord library
 
