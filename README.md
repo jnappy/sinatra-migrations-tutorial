@@ -12,7 +12,7 @@
 - Write a migration to delete a model's attribute
 
 ### Preparation
-*Before this, you should already be able to:*
+*Before this tutorial, you should already be able to:*
 
 - Explain the concept of MVC
 - Create a Rails-like folder structure in a Sinatra app
@@ -22,9 +22,7 @@
 ---
 
 
-## Wait, what are Models? 
-
-#### Refresh on Models
+## What are Models? 
 
 Many think of Sinatra as a light-weight framework to create simple applications. However, we can apply the design patterns of MVC to make more complex applications. When we design classes - or models of objects - we 'model' these classes. So, our models allow us to deal with objects in our code.
 
@@ -180,7 +178,7 @@ Start it up, check it out in your browser. Try clicking 'Add Artist' – crap!
 
 ![](http://s30.postimg.org/d5bpwkoo1/Screen_Shot_2015_07_10_at_10_42_37_AM.png)
 
-## Error?? Demo (5 mins)
+## Error?
 
 If you read through what this page is actually telling you, you can probably guess why this happened.
 
