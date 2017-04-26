@@ -1,4 +1,4 @@
-# Building Models with ActiveRecord & Migrations
+# Building Models with ActiveRecord & Migrations in Sinatra
 
 ### Duration: ~ 1 hour
 
@@ -22,7 +22,7 @@
 ---
 
 
-## What are Models? 
+## What are models? 
 
 Many think of Sinatra as a light-weight framework to create simple applications. However, we can apply the design patterns of MVC to make more complex applications. When we design classes - or models of objects - we 'model' these classes. So, our models allow us to deal with objects in our code.
 
@@ -207,7 +207,7 @@ rake db:structure:load      # Recreate the databases...
 rake db:version             # Retrieves the current ...
 ```
 
-## Let's Create Some Data Tables with migrations...and without SQL! 
+## Create data tables...without SQL! 
 
 You'll notice we've already set up a bit of your Rakefile for you – we're basically just using the commands that the ActiveRecord gem has built in. Don't worry about memorizing the code in this file, but _do_ make sure you understand what the commands it gives us do.
 
@@ -343,21 +343,23 @@ According to [the official ActiveRecord docs](http://edgeguides.rubyonrails.org/
 
 As always, if you can't remember the exact syntax, talk to the Google!
 
+---
+
 ## Check your understanding
+
+Think and try to answer these questions:
+
 - What is ActiveRecord and how does it interact with your database?
 - What are migrations?
-- Briefly, describe how to configure your Sinatra app to use ActiveRecord.
+- Briefly, describe how to configure a Sinatra app to use ActiveRecord.
 
-## Try on your own
+## Further practice
 
 Management at Tunr decided they need more information about the people they represent.  Do the following to make it happen:
 
 - Add another column to your artists table named "Address" that stores string data (be careful with the datatype on this one - it's not what you think)
 - Add a column with a different data type, and then delete it
 - Update an existing column to have a different name
-
-#### Bonus:
-
 - Update the artist show page to display the new data
 - Try using `tux` to add/edit/destroy instances of Artist models (and thus, records in your database)
 - Register a new artist using the ```artists/new``` end point
