@@ -74,7 +74,7 @@ This will all make a lot more sense once we start using it...so, let's start usi
 
 ## Requiring and using ActiveRecord 
 
-Download and open the code provided, [here](#).  Let's pretend we run a  talent management agency, Tunr, and we have designed a Sinatra app to manage our artists. Let's take a look at our app.rb & config.ru files.  
+Download and open the code provided, [here](https://github.com/jnappy/sinatra-migrations-tutorial/tree/master/starter-code).  Let's pretend we run a  talent management agency, Tunr, and we have designed a Sinatra app to manage our artists. Let's take a look at our app.rb & config.ru files.  
 
 Read through the app.rb & config.ru files. Do you notice any odd methods in the seven restful actions? 
 
@@ -352,6 +352,8 @@ Think and try to answer these questions:
 - What is ActiveRecord and how does it interact with your database?
 - What are migrations?
 - Briefly, describe how to configure a Sinatra app to use ActiveRecord.
+
+Check out the solution code, [here](https://github.com/jnappy/sinatra-migrations-tutorial/tree/master/solution-code). 
 
 ## Further practice
 
