@@ -47,9 +47,9 @@ And let's pretend that we create a new user, Rob Stark, whose object is shown be
 With an ORM, we're able to take that instance of class User and map it to a relational database:
 
 ```psql
- id |   name    | age |                      address                       | king?
-----+-----------+-----+----------------------------------------------------+-------
-  1 | Rob Stark |  16 | 1 Winterfell Lane                                  | t
+ id |   name    | age |                      address                       
+----+-----------+-----+----------------------------------------------------
+  1 | Rob Stark |  16 | 1 Winterfell Lane                                  
 (1 row)
 ```
 
